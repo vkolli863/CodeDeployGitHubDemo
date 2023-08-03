@@ -1,0 +1,13 @@
+git repositories process:
+create a repository in github page CodeDeployGitHubDemo
+On local Windows machines:
+From a command prompt running as an administrator, run the following commands, one at a time:
+mkdir c:\temp\CodeDeployGitHubDemo
+cd c:\temp\CodeDeployGitHubDemo
+notepad README.md
+In Notepad, save the README.md file. Close Notepad. Run the following commands, one at a time, where user-name is your GitHub user name:vkolli863
+git init
+git add README.md
+git commit -m "My first commit"
+git remote add origin https://github.com/vkolli863/CodeDeployGitHubDemo.git
+git push -u origin master
